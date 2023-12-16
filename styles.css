@@ -1,0 +1,414 @@
+/* 
+colors:
+#f0c056 - orange
+
+*/
+html, body, h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    overflow-x: none;
+  
+  
+}
+section 
+{
+    margin-bottom: 8rem;
+}
+.parallax-container {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+ .toBackButtons 
+ {
+    justify-content: space-between; /* Add this line */
+ }
+.movingBackground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+h1 
+{
+    text-align: center;
+}
+section 
+{
+    margin-bottom: 4rem;
+}
+.toBackButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toBackButtons button {
+    max-height: 50px;
+}
+
+.toBackButtons  button
+{
+    
+    max-height: 50px;
+}
+.toBackButtons 
+{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+ 
+.AllSkills 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.AllSkills div 
+{
+    padding: 1rem 5rem 5rem 5rem;
+    margin: 1rem;
+    border: 3px solid orange;
+    border-radius: 1rem;
+     
+}
+ 
+ 
+.project img 
+{
+    width: 800px;
+    height: auto;
+
+}
+section 
+{
+    background-color: white;
+}
+.frontEnd img, .backEnd img {
+    width: auto;
+    height: 50px;
+}
+ 
+.mainCategoryName 
+{
+    text-align: center;
+    font-family: 'Delius', cursive;
+}
+#contact 
+{
+    border-radius: 20px;
+  border: 2px solid orange;
+  transition: background-color 0.2s;
+}
+#github 
+{
+    color: rgb(43, 43, 43);
+}
+ 
+.linkGithub img:hover
+{
+    scale: 1.05;
+}
+#contact:hover
+{
+    color: black;
+    background-color: orange
+}
+.movingBackground .circle 
+{
+     background-color: rgba(83, 83, 83,0);
+      padding: 4em 4rem 6rem 4rem;  
+     position: relative;
+     left: 30px;
+     animation-name: moveBackground;
+
+     animation-iteration-count: infinite;
+     z-index: -99;
+    filter: blur(3px);
+    display: grid;
+    width: 30px;
+     margin-top: 20px;
+    border: 10px solid rgba(30,30,30,0.1);
+    overflow: hidden;
+        transform: rotate(5deg);
+
+
+}
+ 
+  @keyframes moveRight {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  
+ 
+.movingBackground .circle:hover 
+{
+    background-color: red;
+}
+@keyframes moveBackground {
+    0% {left: -20%;}
+    100% {left: 110%;}
+    
+ }
+
+
+.movingBackground 
+{
+    position: absolute;
+    width: 100%;
+}
+.aboutMeSection {
+ 
+     backdrop-filter: (30px);
+ }
+ .linksToMedia 
+ {
+    text-align: center;
+    padding: 3rem;
+ }
+
+.css-selector {
+    
+}
+
+@-webkit-keyframes sectionColor {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+ .intro 
+ {
+   text-align: center;
+    padding: 2rem;
+ 
+ }
+ .myTitle 
+ {
+    font-size: 34px;
+    font-weight: 900;
+ }
+ .myMoto 
+ {
+    font-size: 16px;
+ }
+ 
+ .header {
+    overflow: hidden;
+    background-color: rgba(241,241, 241, 0.8);
+    backdrop-filter: blur(20px);
+    padding: 20px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    transition: padding-top 0.2s;
+    border-bottom: solid orange;
+    
+  }
+  .toBackButtons button 
+  {
+    padding: 1rem;
+    border: none;
+   background-color: orange;
+   border-radius: 50%;
+  }
+  
+   .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    margin-right: 1rem;
+  }
+ 
+   .header-right {
+    float: right;
+  }
+  
+ .aboutmeContents p 
+ {
+    background-color: rgb(255,255,255,0.7);
+    padding: 1rem;
+    transition: scale 0.5s;
+    
+}
+ 
+ 
+ .header nav li a
+ {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+ }
+ .sectionContents 
+ {
+    padding: 1rem;
+ }
+ .mySlides {
+    display: none
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  
+  /* Slideshow container */
+  
+  .photos {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  
+  /* Next & previous buttons */
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    width: auto;
+    padding: 16px;
+    margin-top: -200px;
+    color: orange;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  
+  /* Position the "next button" to the right */
+  
+  .next {
+    position: absolute;
+    color: orange;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  /* On hover, add a black background color with a little bit see-through */
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .btn-responsive {
+    /* matches 'btn-md' */
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+  }
+  
+  @media (max-width:760px) {
+    /* matches 'btn-xs' */
+    .btn-responsive {
+      padding: 1px 5px;
+      font-size: 12px;
+      line-height: 1.5;
+      border-radius: 3px;
+    }
+  }
+  
+ 
+  
+  /* Fading animation */
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+ .aboutMeSection img, .aboutmeContents, .aboutmeContents button
+ {
+    display: block;
+    margin: 10px auto;
+
+ }
+ .aboutmeContents button 
+ {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    background-color: rgba(242, 242, 242, 0.5);
+    border: 3px solid white;
+    transition: background-color 0.3s;
+ }
+ .aboutmeContents button:hover
+ {
+  background-color: rgba(242, 242, 242, 1);
+ }
+ 
+ 
+
+.aboutmeContents {
+     max-width: 600px; 
+     padding: 1rem;
+  
+ }
+ 
+ 
+ .aboutmeContents button 
+ {
+    display: flex;
+    justify-content: center;
+ }
+
+#portfolioPic 
+{
+    border-radius: 50%;
+}
+.projects 
+{
+ 
+    text-align: center;
+ }
+ 
+ 
+.projectSection img 
+{
+    
+}
+@media only screen and (max-width: 428px) {
+    #portfolioPic 
+    {
+        width: 100%;
+    }
+  }
+
+  
